@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>544</width>
+    <height>408</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(169, 132, 103);</string>
+  </property>
+  <widget class="QFrame" name="frame_4">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>300</y>
+     <width>460</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QFrame{
+	background-color: rgba(0,0,0,0.2);
+	border-radius: 10px;
+}</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QPushButton" name="cancelar">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>10</y>
+      <width>100</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Comic Sans MS</family>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	background-color: rgb(255, 155, 133);
+	
+	border-radius:10px
+}
+QPushButton:hover{
+	background-color: rgb(238, 96, 85);
+	color:rgb(0, 0, 0);
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Cancelar</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Salvar">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>10</y>
+      <width>100</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Comic Sans MS</family>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	background-color: rgb(221, 229, 182);
+	
+	border-radius:10px
+}
+QPushButton:hover{
+	background-color: rgb(173, 193, 120);
+	color:rgb(0, 0, 0);
+}</string>
+    </property>
+    <property name="text">
+     <string>Salvar</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>521</width>
+     <height>281</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QFrame{
+	background-color: rgba(0,0,0,0.2);
+	border-radius: 10px;
+}</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>10</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Comic Sans MS</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QFrame{
+	background-color: rgb(240, 234, 210);
+	border-radius: 10px;
+}</string>
+    </property>
+    <property name="text">
+     <string>     Bolsa</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="Item3">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>152</y>
+      <width>210</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Comic Sans MS</family>
+      <pointsize>11</pointsize>
+      <underline>false</underline>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="whatsThis">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Clase&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{
+	background-color: rgba(240, 234, 210);
+	border-radius: 10px;
+	border: 2px solid rgb(173, 193, 120);
+	
+}</string>
+    </property>
+    <property name="inputMask">
+     <string/>
+    </property>
+    <property name="text">
+     <string comment="Nome"/>
+    </property>
+    <property name="maxLength">
+     <number>50</number>
+    </property>
+    <property name="frame">
+     <bool>true</bool>
+    </property>
+    <property name="readOnly">
+     <bool>false</bool>
+    </property>
+    <property name="placeholderText">
+     <string>Item 3</string>
+    </property>
+    <property name="clearButtonEnabled">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="Item4">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>203</y>
+      <width>210</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Comic Sans MS</family>
+      <pointsize>11</pointsize>
+      <underline>false</underline>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="whatsThis">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Clase&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{
+	background-color: rgba(240, 234, 210);
+	border-radius: 10px;
+	border: 2px solid rgb(173, 193, 120);
+	
+}</string>
+    </property>
+    <property name="inputMask">
+     <string/>
+    </property>
+    <property name="text">
+     <string comment="Nome"/>
+    </property>
+    <property name="maxLength">
+     <number>50</number>
+    </property>
+    <property name="frame">
+     <bool>true</bool>
+    </property>
+    <property name="readOnly">
+     <bool>false</bool>
+    </property>
+    <property name="placeholderText">
+     <string>Item 4</string>
+    </property>
+    <property name="clearButtonEnabled">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="Item2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>101</y>
+      <width>210</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Comic Sans MS</family>
+      <pointsize>11</pointsize>
+      <underline>false</underline>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="whatsThis">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Clase&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{
+	background-color: rgba(240, 234, 210);
+	border-radius: 10px;
+	border: 2px solid rgb(173, 193, 120);
+	
+}</string>
+    </property>
+    <property name="inputMask">
+     <string/>
+    </property>
+    <property name="text">
+     <string comment="Nome"/>
+    </property>
+    <property name="maxLength">
+     <number>50</number>
+    </property>
+    <property name="frame">
+     <bool>true</bool>
+    </property>
+    <property name="readOnly">
+     <bool>false</bool>
+    </property>
+    <property name="placeholderText">
+     <string>Item 2</string>
+    </property>
+    <property name="clearButtonEnabled">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="Item1">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>50</y>
+      <width>210</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Comic Sans MS</family>
+      <pointsize>11</pointsize>
+      <underline>false</underline>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="whatsThis">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Clase&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{
+	background-color: rgba(240, 234, 210);
+	border-radius: 10px;
+	border: 2px solid rgb(173, 193, 120);
+	
+}</string>
+    </property>
+    <property name="inputMask">
+     <string/>
+    </property>
+    <property name="text">
+     <string comment="Nome"/>
+    </property>
+    <property name="maxLength">
+     <number>50</number>
+    </property>
+    <property name="frame">
+     <bool>true</bool>
+    </property>
+    <property name="readOnly">
+     <bool>false</bool>
+    </property>
+    <property name="placeholderText">
+     <string>Item 1</string>
+    </property>
+    <property name="clearButtonEnabled">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="Item5">
+    <property name="geometry">
+     <rect>
+      <x>293</x>
+      <y>50</y>
+      <width>210</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Comic Sans MS</family>
+      <pointsize>11</pointsize>
+      <underline>false</underline>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="whatsThis">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Clase&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{
+	background-color: rgba(240, 234, 210);
+	border-radius: 10px;
+	border: 2px solid rgb(173, 193, 120);
+	
+}</string>
+    </property>
+    <property name="inputMask">
+     <string/>
+    </property>
+    <property name="text">
+     <string comment="Nome"/>
+    </property>
+    <property name="maxLength">
+     <number>50</number>
+    </property>
+    <property name="frame">
+     <bool>true</bool>
+    </property>
+    <property name="readOnly">
+     <bool>false</bool>
+    </property>
+    <property name="placeholderText">
+     <string>Item 5</string>
+    </property>
+    <property name="clearButtonEnabled">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="Item6">
+    <property name="geometry">
+     <rect>
+      <x>293</x>
+      <y>101</y>
+      <width>210</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Comic Sans MS</family>
+      <pointsize>11</pointsize>
+      <underline>false</underline>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="whatsThis">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Clase&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{
+	background-color: rgba(240, 234, 210);
+	border-radius: 10px;
+	border: 2px solid rgb(173, 193, 120);
+	
+}</string>
+    </property>
+    <property name="inputMask">
+     <string/>
+    </property>
+    <property name="text">
+     <string comment="Nome"/>
+    </property>
+    <property name="maxLength">
+     <number>50</number>
+    </property>
+    <property name="frame">
+     <bool>true</bool>
+    </property>
+    <property name="readOnly">
+     <bool>false</bool>
+    </property>
+    <property name="placeholderText">
+     <string>Item 6</string>
+    </property>
+    <property name="clearButtonEnabled">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="Dinheiro">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>150</y>
+      <width>210</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Comic Sans MS</family>
+      <pointsize>11</pointsize>
+      <underline>false</underline>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="whatsThis">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Clase&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{
+	background-color: rgba(240, 234, 210);
+	border-radius: 10px;
+	border: 2px solid rgb(173, 193, 120);
+	
+}</string>
+    </property>
+    <property name="inputMask">
+     <string/>
+    </property>
+    <property name="text">
+     <string comment="Nome"/>
+    </property>
+    <property name="maxLength">
+     <number>7</number>
+    </property>
+    <property name="frame">
+     <bool>true</bool>
+    </property>
+    <property name="readOnly">
+     <bool>false</bool>
+    </property>
+    <property name="placeholderText">
+     <string>Dinheiro</string>
+    </property>
+    <property name="clearButtonEnabled">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="Id_personagem">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>200</y>
+      <width>181</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Comic Sans MS</family>
+      <pointsize>11</pointsize>
+      <underline>false</underline>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="whatsThis">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Clase&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{
+	background-color: rgba(240, 234, 210);
+	border-radius: 10px;
+	border: 2px solid rgb(173, 193, 120);
+	
+}</string>
+    </property>
+    <property name="inputMask">
+     <string/>
+    </property>
+    <property name="text">
+     <string comment="Nome"/>
+    </property>
+    <property name="maxLength">
+     <number>50</number>
+    </property>
+    <property name="frame">
+     <bool>true</bool>
+    </property>
+    <property name="readOnly">
+     <bool>false</bool>
+    </property>
+    <property name="placeholderText">
+     <string>Id_personagem</string>
+    </property>
+    <property name="clearButtonEnabled">
+     <bool>false</bool>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>370</y>
+     <width>191</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Comic Sans MS</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
